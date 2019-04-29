@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <title>Centauri</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link href="css/centauristyles.css" rel="stylesheet">
+    </head>
+    <body>
+        <p id="warning">Warning! Contains sound.</p>
+        <p id="present">Alex M. presents...</p>
+        <h1>Centauri</h1>
+        <h2>A very simple number guessing game!</h2>
+        <h3 id="dialog"><br>Choose your difficulty, then click Go!<br>&nbsp;</h3>
+        <div id="difficultycss">
+            <label><input type="radio" name="muoto" value="1" checked="checked">0 ... 10</label>
+             <label><input type="radio" name="muoto" value="2">-10 ... 10</label>
+             <label><input type="radio" name="muoto" value="3">0 ... 20</label>
+             <button id="start" onclick="aloitus()">Go!</button>
+             <p>----------</p>
+        </div>
+             <div id="guesscss">
+                 <label for="arvaus">Your guess:</label>
+             <input type="number" id="arvaus"/>
+             <button id="check" onclick="tarkistus()" disabled>Check</button>
+             </div>
+        <div id="quitcss">
+            <button id="quit" onclick="lopetus()" disabled>Quit</button>
+        </div>
+        <script src="js/centauricodes.js"></script>
+    </body>
+    <footer>Copyright ©lolololo. This translates to "There's no copyright. Copy this if you want, I don't care. I really don't."</footer>
+</html>

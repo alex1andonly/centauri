@@ -1,0 +1,67 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 16-Oct-2018, 11:16:16
+    Author     : Alex
+*/
+
+@font-face {
+font-family: "Hemi Head";
+src: url("css/fonts/hemihead.ttf");}
+@font-face {
+font-family: "Montserrat";
+src: url("css/fonts/Montserrat.ttf");}
+
+body {background-color:#798EF6}
+
+#warning {font-family:"Montserrat";
+          text-align:center;}
+
+h1 {font-family: "Hemi Head";
+    color:#DDE3FD;
+    font-weight:normal;
+    font-style:normal;
+    font-size: 100px;
+    text-align:center;
+    background-color:#0A2299;
+    border-radius:50px;
+    border:5px #091034 solid;
+    text-shadow: 0px 7px #000000;
+    max-width:500px;
+    margin:auto;
+    margin-top:70px;
+    }
+h2 {font-family: "Montserrat";
+    text-align:center;}
+div {text-align:center;
+     position:relative;
+     bottom:0px;
+     font-family:"Montserrat"}
+h3 {font-family: "Montserrat";
+    text-align:center;
+    position:relative;
+    background-color:#183BF0;
+    padding-top:10px;
+    padding-bottom:10px;
+    border-radius:50px;
+    border:3px #091034 solid;
+    bottom:30px;
+    max-width:700px;
+    margin:auto;
+    margin-top:60px}
+#quitcss {padding-top:10px;
+          bottom:20px}
+#difficultycss {bottom:20px}
+#guesscss {bottom:20px}
+footer {font-family:"Hemi Head";
+        font-size:10px;
+        position:relative;
+        top:100px}
+#present {font-family:"Montserrat";
+          font-size:20px;
+          text-align:center;
+          position:relative;
+          top:60px;}
